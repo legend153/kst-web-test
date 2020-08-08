@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(hpp());
   app.use(helmet());
   app.use(cors({
-    origin: ['http://54.180.127.177'],
+    origin: ['172.31.0.28'],
     credentials: true,
   }));
 } else {
